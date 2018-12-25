@@ -3,35 +3,21 @@ package javaapplication5;
 
 public class Linklist {
         public static void main(String[] args) {
-            Queue1 q=new Queue1();
-            q.Enqueue(10);
-            q.Enqueue(20);
-            q.Enqueue(30);
-            q.Dequeue();
-            q.Displayqueue();
-//            Stack1 stack=new Stack1();
-//            stack.push(10);
-//            stack.push(20);
-//            stack.push(30);
-//            stack.pop();
-//            
-//            stack.Diplaystack();
-//            Slinklylist s=new Slinklylist();
-//            s.addfirst(10);
-//             s.addfirst(123);
-//              s.addfirst(34);
-//               s.addfirst(40);
-//                s.addfirst(50);
-//                s.addlast(123123);
-//                s.addfirst(00);
-//                s.addlast(898990);
-//                s.removefirst();
-//                s.removefirst();
-//                s.removelast();
-//                
-//                s.removelast();
-//            s.display();
-        
+              stack.Diplaystack();
+           Slinklylist s=new Slinklylist();
+           s.addfirst(10);
+            s.addfirst(123);
+             s.addfirst(34);
+              s.addfirst(40);
+               s.addfirst(50);
+               s.addlast(123123);
+               s.addfirst(00);
+               s.addlast(898990);
+               s.removefirst();
+               s.removefirst();
+               s.removelast();
+               s.removelast();
+           s.display();
         }
 }
 class Node{
